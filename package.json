@@ -1,0 +1,30 @@
+{
+  "name": "cypress-api-zero-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "./node_modules/.bin/cypress open",
+    "cypress:run": "./node_modules/.bin/cypress run --spec **/*.spec.js",
+    "lint": "eslint --ignore-path .gitignore ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gostosohub/cypress-api-zero-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gostosohub/cypress-api-zero-project/issues"
+  },
+  "homepage": "https://github.com/gostosohub/cypress-api-zero-project#readme",
+  "devDependencies": {
+    "cypress": "^7.4.0",
+    "eslint": "^7.27.0",
+    "faker": "^4.1.0",
+    "json-server": "^0.15.0",
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  }
+}
