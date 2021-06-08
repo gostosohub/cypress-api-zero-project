@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "stubs": "json-server ./cypress/fixtures/data/employees.js",
     "cypress:open": "./node_modules/.bin/cypress open",
     "cypress:run": "./node_modules/.bin/cypress run --spec **/*.spec.js",
     "lint": "eslint --ignore-path .gitignore ."
