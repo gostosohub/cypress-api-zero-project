@@ -1,3 +1,4 @@
+/// <reference types="cypress" />
 
 describe('employees API', () => {
   it('verify request returns JSON', () => {
@@ -5,7 +6,7 @@ describe('employees API', () => {
   })
 
   it('verify the request returns the correct status code', () => {
-    cy.request('http://localhost:3000/employees').its("status").should('be.equal', 200);
+    cy.request('http://localhost:3000/employees').its("status").should('be.equal', 200)
   })
 
   it("post a new item", () => {
