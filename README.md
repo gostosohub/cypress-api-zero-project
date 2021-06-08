@@ -18,4 +18,6 @@ This project is all about learning api testing using cypress.
 ## Stub data used in the project
    I have created data using [faker.js](https://www.npmjs.com/package/faker)
 
+## Created REST API
+   Using [json-server](https://www.npmjs.com/package/json-server)
    
