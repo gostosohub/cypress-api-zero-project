@@ -2,7 +2,7 @@
 
 This project is all about learning api testing using cypress.
 
-## Create a project and Install Cypress  
+## Create a project and install Cypress  
   1. Create a empty directory of the project name
   2. Open it in the IDE and open the terminal
   3. Run `npm init`. It will create `package.json`.
