@@ -2,7 +2,7 @@
 
 This project is all about learning api testing using cypress.
 
-## Install Cypress
+## Create a project and Install Cypress
    
   1. Create a empty directory of the project name
   2. Open it in the IDE and open the terminal
