@@ -20,4 +20,4 @@ This project is all about learning api testing using cypress.
    Using [json-server](https://www.npmjs.com/package/json-server)
  
 ## Intsall mochawesome-report-generator
- `npm i --D mocha mochawesome mochawesome-merge mochawesome-report-generator`
+ `npm i --D mocha mochawesome mochawesome-report-generator`
