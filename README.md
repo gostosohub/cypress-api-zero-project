@@ -11,7 +11,7 @@ This project is all about learning api testing using cypress.
 
 ## How to run the tests ?
    1. Start stub server using `npm run stubs`
-   2. Run the API tests using `npm cypress:run`
+   2. Run the API tests using `npm run test`
    
 ## Created Stub data
    Using [faker.js](https://www.npmjs.com/package/faker)
