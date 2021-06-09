@@ -1,3 +1,11 @@
 {
-  "video": false
+  "video": false,
+  "reporter": "../node_modules/mochawesome/src/mochawesome.js",
+  "reporterOptions": {
+    "overwrite": true,
+    "html": true,
+    "json": false,
+    "reportDir": "./testOutput/",
+    "reportFilename": "testReport"
+  }
 }

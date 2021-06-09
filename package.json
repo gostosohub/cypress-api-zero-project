@@ -7,7 +7,9 @@
     "stubs": "json-server ./cypress/fixtures/data/employees.js",
     "cypress:open": "./node_modules/.bin/cypress open",
     "cypress:run": "./node_modules/.bin/cypress run --spec **/*.spec.js",
-    "lint": "eslint --ignore-path .gitignore ."
+    "lint": "eslint --ignore-path .gitignore .",
+    "clean:reports": "rm -rf testOutput/",
+    "test": "npm run clean:reports && cypress run"
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,9 @@
     "eslint": "^7.27.0",
     "faker": "^4.1.0",
     "json-server": "^0.15.0",
+    "mocha": "^9.0.0",
+    "mochawesome": "^6.2.2",
+    "mochawesome-report-generator": "^5.2.0",
     "multiple-cucumber-html-reporter": "^1.18.0"
   }
 }
