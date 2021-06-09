@@ -1,13 +1,13 @@
 /// <reference types="cypress" />
 
-describe('employees API', () => {
+describe('Employees API', () => {
   var newId;
 
   it('Verify request returns JSON', () => {
     cy.request('http://localhost:3000/employees').its('headers').its('content-type').should('include', 'application/json')
   })
 
-  it('verify the request returns the correct status code', () => {
+  it('Verify the request returns the correct status code', () => {
     cy.request('http://localhost:3000/employees').its("status").should('be.equal', 200)
   })
 
