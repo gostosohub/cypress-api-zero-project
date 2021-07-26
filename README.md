@@ -1,3 +1,4 @@
+
 # cypress-api-zero-project
 
 This project is all about learning api testing using cypress.
@@ -22,3 +23,4 @@ This project is all about learning api testing using cypress.
 ## Intsall mochawesome-report-generator
    1. `npm i --D mocha mochawesome mochawesome-report-generator`
    2. Test report will created under testOutput/
+   3. <img width="1527" alt="Screenshot 2021-07-26 at 23 08 30" src="https://user-images.githubusercontent.com/69424682/127065568-1fc4b968-c9a6-4697-bcd8-cce378312155.png">
